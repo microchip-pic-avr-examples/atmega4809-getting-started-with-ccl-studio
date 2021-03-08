@@ -4,26 +4,26 @@
     "content": {
         "metaDataVersion": "1.1.0",
         "name": "com.microchip.mcu8.studio.project.atmega4809-getting-started-with-ccl-studio",
-        "version": "",
-        "displayName": "",
+        "version": "1.0.0",
+        "displayName": "Getting Started with Configurable Custom Logic (CCL)",
         "projectName": "atmega4809-getting-started-with-ccl-studio",
-        "shortDescription": "",
+        "shortDescription": "This repository contains 3 bare metal code examples that show how to use the CCL peripheral of the ATmega4809 device in different modes. It is a companion to the TB3218-Getting Started with Configurable Custom Logic (CCL).",
         "ide": {
             "name": "STUDIO",
-            "semverRange": ""
+            "semverRange": ">=7.0.2542"
         },
         "compiler": [
 			{
-				"name": "",
-				"semverRange": ""
+				"name": "AVR GCC",
+				"semverRange": "^5.4.0"
 			}
 		],
         "dfp": {
-            "name": "",
-            "semverRange": ""
+            "name": "ATmega_DFP",
+            "semverRange": "^1.6.364"
         },
         "configurator": {
-            "name": "",
+            "name": "N/A",
             "semverRange": ""
         },
         "device": {
@@ -32,16 +32,21 @@
             "content": {
                 "metaDataVersion": "1.0.0",
                 "category": "com.microchip.device",
-                "name": "",
+                "name": "ATmega4809",
                 "versionRange": "*"
             }
         },
-        "author": "",
+        "author": "Microchip",
         "subcategories": [
+          [
+            "Peripherals",
+            "CCL"
+          ]
         ],
         "peripherals": [
+          "CCL"
         ],
-        "keywords": [
+        "keywords": ["Getting Started", "Bare Metal", "SR Latch"
         ],
 		"additionalData": {
 			"longDescription": {
