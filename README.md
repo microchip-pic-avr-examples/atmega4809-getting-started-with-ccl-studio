@@ -2,7 +2,7 @@
 
 # Getting Started with Configurable Custom Logic (CCL) Examples (Microchip Studio)
 
-  This repository contains examples of bare metal source code for the Configurable Custom Logic (CCL) as described in [TB3218-Getting Started with Configurable Custom Logic (CCL)](http://ww1.microchip.com/downloads/en/Appnotes/TB3218-Getting-Started-with-CCL-90003218A.pdf) document from Microchip. The repository contains a Microchip Studio Solution with multiple projects inside:
+  This repository contains examples of bare metal source code for the Configurable Custom Logic (CCL) as described in [TB3218-Getting Started with Configurable Custom Logic (CCL)](https://ww1.microchip.com/downloads/en/Appnotes/TB3218-Getting-Started-with-CCL-DS90003218.pdf) document from Microchip. The repository contains a Microchip Studio Solution with multiple projects inside:
 
 * [<strong>Logic AND Gate:</strong>](Logic_AND_Gate) This use case shows how to configure and use the CCL peripheral to implement an AND gate with three inputs (for more details, see [<strong>Logic AND Gate</strong>](Logic_AND_Gate)).
 * [<strong>State Decoder:</strong>](State_Decoder) This use case shows how to configure the CCL peripheral to decode the presence of the `b'10110` pattern on the input pins. A circuit composed of LUT0 and LUT1 is implemented to trigger its output when the inputs are in the form of the given pattern (for more details, see [<strong>State Decoder</strong>](State_Decoder)).
@@ -10,7 +10,7 @@
 
 ## Related Documentation
 More details and code examples on the ATMEGA4809 can be found at the following links:
-- [TB3218 - Getting Started with Configurable Custom Logic (CCL)](http://ww1.microchip.com/downloads/en/Appnotes/TB3218-Getting-Started-with-CCL-90003218A.pdf)
+- [TB3218 - Getting Started with Configurable Custom Logic (CCL)](https://ww1.microchip.com/downloads/en/Appnotes/TB3218-Getting-Started-with-CCL-DS90003218.pdf)
 - [ATMEGA4809 Product Page](https://www.microchip.com/wwwproducts/en/ATMEGA4809)
 - [ATMEGA4809 Code Examples on GitHub](https://github.com/microchip-pic-avr-examples?q=atmega4809)
 - [ATMEGA4809 Project Examples in START](https://start.atmel.com/#examples/ATMEGA4809XplainedPro)

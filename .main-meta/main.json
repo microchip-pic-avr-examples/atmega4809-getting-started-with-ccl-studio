@@ -4,10 +4,10 @@
     "content": {
         "metaDataVersion": "1.1.0",
         "name": "com.microchip.mcu8.studio.project.atmega4809-getting-started-with-ccl-studio",
-        "version": "1.0.0",
+        "version": "1.0.1",
         "displayName": "Getting Started with Configurable Custom Logic (CCL)",
         "projectName": "atmega4809-getting-started-with-ccl-studio",
-        "shortDescription": "This repository contains 3 bare metal code examples that show how to use the CCL peripheral of the ATmega4809 device in different modes. It is a companion to the TB3218-Getting Started with Configurable Custom Logic (CCL).",
+        "shortDescription": "This repository contains 3 bare metal code examples that show how to use the Configurable Custom Logic (CCL) peripheral of the ATmega4809 device in different modes. It is a companion to the TB3218-Getting Started with Configurable Custom Logic (CCL).",
         "ide": {
             "name": "STUDIO",
             "semverRange": ">=7.0.2542"
